@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <!--left side-->
+            <div class="doc-title">
+                <!--TO DO: get image-->
+                
+              <div class="logo">
+                <svg viewBox="0 0 100 100" aria-hidden="true">
+                    <path
+                    d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3 88 34.8 73 44.9 54.3 32.4V12.3zm-8.6 0v20L27.1 44.8 12 34.8l33.7-22.5zM8.6 42.8 19.3 50 8.6 57.2V42.8zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2 34.8 50 50 39.8 65.2 50 50 60.2zm4.3 27.5v-20l18.6-12.5 15 10.1-33.6 22.4zm37.1-30.5L80.7 50l10.8-7.2-.1 14.4z" fill="#fff"
+                    ></path>
+                 </svg>
+              </div>
+                <div class="left-logo">
+                    <div class="title">
+                        <h1>Untitled</h1>
+                        <svg viewBox="0 0 100 100" class="ItemTitle_iconEdit-rW2EJ">
+                            <path
+                              d="M24.56 92.536 0 100l7.453-24.583c6.356-.244 17.322 10.792 17.107 17.119zM96.617 32.082l-.475.471L67.383 3.766l.472-.472c12.927-12.94 42.016 15.517 28.762 28.788zM61.64 9.516l28.758 28.785-46.303 46.345c-1.222 1.221-2.234.884-2.234.884l2.314-15.356-14.454.074.072-14.468-15.342 2.312s-.34-1.011.883-2.234L61.64 9.516z"
+                              fill="#fff"
+                            ></path>
+                          </svg>
+                    </div>
+                    <p>Ouldmouloud Nada</p>
+                    
+                </div>
+            </div>
+            <!--right side-->
+            <div class="options">
+                <button>
+                   <i class="fa-solid fa-cloud" style="color: #fff;"></i>
+                   <p>Save</p>
+               </button>
+               <button>
+                   <i class="fa-solid fa-gear" style="color: #fff;"></i>
+                   <p>Settings</p>
+               </button>
+               <button>
+                   <svg width="16px" height="16px" viewBox="0 0 20 20" class="EditorHeaderViewSwitcher_iconPen-jP26l" fill="#fff"><path d="M0 9.002C0 8.45.455 8 .992 8h18.016c.548 0 .992.456.992 1.002v9.996c0 .553-.455 1.002-.992 1.002H.992C.444 20 0 19.544 0 18.998V9.002Zm0-8C0 .45.451 0 .99 0h4.02A.99.99 0 0 1 6 1.003v4.994C6 6.551 5.549 7 5.01 7H.99A.99.99 0 0 1 0 5.997V1.003Zm7 0C7 .45 7.451 0 7.99 0h4.02A.99.99 0 0 1 13 1.003v4.994C13 6.551 12.549 7 12.01 7H7.99A.99.99 0 0 1 7 5.997V1.003Zm7 0C14 .45 14.451 0 14.99 0h4.02A.99.99 0 0 1 20 1.003v4.994C20 6.551 19.549 7 19.01 7h-4.02A.99.99 0 0 1 14 5.997V1.003Z"></path></svg>
+               </button>
+               <button>
+                <svg  width="16px" height="16px" viewBox="0 0 12 18" fill="#fff">
+                    <path
+                      d="M1.5 7.74V1.8c-.414 0-.75-.403-.75-.9s.336-.9.75-.9h9c.414 0 .75.403.75.9s-.336.9-.75.9v5.94a7.567 7.567 0 0 1 1.274 2.55c.11.395.166.73.195.973a4.701 4.701 0 0 1 .03.387v.031l.001.01v.007s-.004-.117 0 .002c0 .497-.336.9-.75.9h-4.5v4.5c0 .497-.336.9-.75.9s-.75-.403-.75-.9v-4.5H.75c-.414 0-.75-.403-.75-.9v-.019a2.22 2.22 0 0 1 .005-.122c.004-.074.011-.173.026-.296.029-.244.085-.578.195-.973.2-.72.575-1.632 1.274-2.55Z"
+                    ></path>
+                  </svg>
+                  <i class="fa-solid fa-chevron-down"></i>
+               </button>
+               <div class="image-profile">
+                <!--TO DO: image-->
+                 <img src="user-default-avatar.webp" alt="">
+               </div>
+            </div>
+        </header>
+        <div class="grid-container">
+            <div class="grid-item">
+                <!--html box-->
+                <div class="nav-box">
+                    <div class="nav-box-title">
+                        <svg  viewBox="0 0 15 15" class="file-type-icon" id="icon-file-html" width="17px" height="20px" >
+                            <rect fill="#FF3C41" width="15" height="15" rx="4"></rect>
+                            <path d="M10.97 2.29a.563.563 0 0 0-.495-.29.572.572 0 0 0-.488.277l-5.905 9.86a.565.565 0 0 0-.007.574c.102.18.287.289.495.289a.572.572 0 0 0 .488-.277l5.905-9.86a.565.565 0 0 0 .007-.574" fill="#28282B"></path>
+                        </svg>
+                        <p>HTML</p>
+                    </div>
+                    <div class="nav-option">
+                        <button>
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                    </div>
+                  
+                </div>
+                <!--code area-->
+                <div class="code-area">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="grid-item">
+                <!--css box-->
+                <div class="nav-box">
+                    <div class="nav-box-title">
+                        <svg viewBox="0 0 15 15" class="file-type-icon" id="icon-file-css" width="17px" height="17px">
+                            <rect fill="#0EBEFF" width="15" height="15" rx="4"></rect><path d="M8 8.366l1.845 1.065a.507.507 0 0 0 .686-.181.507.507 0 0 0-.186-.685L8.5 7.5l1.845-1.065a.507.507 0 0 0 .186-.685.507.507 0 0 0-.686-.181L8 6.634v-2.13A.507.507 0 0 0 7.5 4c-.268 0-.5.225-.5.503v2.131L5.155 5.569a.507.507 0 0 0-.686.181.507.507 0 0 0 .186.685L6.5 7.5 4.655 8.565a.507.507 0 0 0-.186.685c.134.232.445.32.686.181L7 8.366v2.13c0 .271.224.504.5.504.268 0 .5-.225.5-.503V8.366z" fill="#282828"></path>
+                        </svg>
+                        <p>CSS</p>
+                    </div>
+                    <div class="nav-option">
+                        <button>
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                    </div>
+                 
+                </div>
+                <!--code area-->
+                <div class="code-area">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="grid-item">
+                <!--js box-->
+                <div class="nav-box">
+                    <div class="nav-box-title">
+                        <svg viewBox="0 0 15 15" class="file-type-icon" id="icon-file-js" width="17px" height="17px">
+                            <rect fill="#FCD000" width="15" height="15" rx="4"></rect>
+                            <path d="M6.554 3.705c0 .267-.19.496-.452.543-1.2.217-2.12 1.61-2.12 3.275 0 1.665.92 3.057 2.12 3.274a.554.554 0 0 1-.205 1.087c-1.733-.322-3.022-2.175-3.022-4.361 0-2.187 1.289-4.04 3.022-4.362a.554.554 0 0 1 .657.544zm1.892 0c0-.347.316-.607.657-.544 1.733.322 3.022 2.175 3.022 4.362 0 2.186-1.289 4.04-3.022 4.361a.554.554 0 0 1-.205-1.087c1.2-.217 2.12-1.61 2.12-3.274 0-1.665-.92-3.058-2.12-3.275a.551.551 0 0 1-.452-.543z" fill="#282828"></path>
+                            </svg>
+                        <p>JS</p>
+                    </div>
+                    <div class="nav-option">
+                        <button>
+                            <i class="fa-solid fa-gear"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                    </div>
+                   
+                </div>
+                <!--code area-->
+                <div class="code-area">
+                    <textarea name="" id=""></textarea>
+                </div> 
+                
+            </div>
+            
+            <div class=" result">
+                <!--result view box-->
+            </div>
+            
+    
+        </div>
+        <footer>
+            <button>Console</button>
+            <button>Assets</button>
+            <button>⌘ Keys</button>
+        </footer>
+    </div>
+    
+</body>
+</html>
